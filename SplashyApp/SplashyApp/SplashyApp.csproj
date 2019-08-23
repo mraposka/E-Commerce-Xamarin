@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DLToolkit.Forms.Controls.FlowListView" Version="2.0.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.4.859" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <PackageReference Include="XamarinFastEntry.Behaviors" Version="1.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\Login\LoginPage.xaml" />
+    <EmbeddedResource Remove="Views\Audio\AudioPage.xaml" />
+    <EmbeddedResource Remove="Views\Documents\DocumentPage.xaml" />
+    <EmbeddedResource Remove="Views\Video\VideoPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AboutUS\AboutUSPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Configuration\ConfigurationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Home\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Profile Settings\ProfileSettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controls\ImageEntry.cs" />
+    <Compile Remove="ViewModels\HomePageViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Siparisler\SiparislerPage.xaml.cs">
+      <DependentUpon>SiparislerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\IcecekUrunleri\IcecekUrunleriPage.xaml.cs">
+      <DependentUpon>IcecekUrunleriPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Odeme\Odeme.xaml.cs">
+      <DependentUpon>Odeme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TemizlikUrunleri\TemizlikUrunleri.xaml.cs">
+      <DependentUpon>TemizlikUrunleri.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SebzeMeyve\SebzeMeyvePage.xaml.cs">
+      <DependentUpon>SebzeMeyvePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Urun_Detay\Urun_Detay.xaml.cs">
+      <DependentUpon>Urun_Detay.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Sepet\Sepet.xaml.cs">
+      <DependentUpon>Sepet.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Yiyecek_ve_İçecekler\Yiyecek_ve_İçecekler.xaml.cs">
+      <DependentUpon>Yiyecek_ve_İçecekler.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

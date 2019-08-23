@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+    ios:Page.UseSafeArea="true"
+             x:Class="SplashyApp.Views.Sepet.SepetPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+    <Label Text="Sepetiniz Boş. Lütfen sepetinize ürün ekleyiniz!" HorizontalOptions="Center" VerticalOptions="Center" Font="18" HeightRequest="100"></Label>
+</ContentPage>

@@ -1,0 +1,26 @@
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\bin\Debug\netstandard2.0\SplashyApp.deps.json
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\bin\Debug\netstandard2.0\SplashyApp.dll
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\bin\Debug\netstandard2.0\SplashyApp.pdb
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.csprojAssemblyReference.cache
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\AboutUS\AboutUSPage.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Configuration\ConfigurationPage.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Home\HomePage.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Profile Settings\ProfileSettingsPage.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.csproj.CoreCompileInputs.cache
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.AssemblyInfoInputs.cache
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.AssemblyInfo.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.dll
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.pdb
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\SebzeMeyve\SebzeMeyvePage.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\IcecekUrunleri\IcecekUrunleriPage.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\TemizlikUrunleri\TemizlikUrunleri.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.Properties.Resources.resources
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\SplashyApp.csproj.GenerateResource.cache
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Yiyecek_ve_İçecekler\Yiyecek_ve_İçecekler.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Urun_Detay\Urun_Detay.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Sepet\Sepet.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Odeme\Odeme.xaml.g.cs
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\CASPER\Desktop\SplashyApp\SplashyApp\obj\Debug\netstandard2.0\Views\Siparisler\SiparislerPage.xaml.g.cs
